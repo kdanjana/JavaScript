@@ -26,4 +26,22 @@ console.log(age);   // output - undefined
 let count = null;
 console.log(count);   // output -- null
 
-
+//functions
+let num1 = 12;
+pracFunction(num1);
+function pracFunction(num){
+    console.log(num);
+}
+pracFunction(1);
+pracFunction('Hello');
+// variables declared outside function can be accessed from within function
+let result = 20;
+function prac(){
+    result += 30;
+}
+console.log(result);
+prac();
+console.log(result);
+result = 0;
+prac();
+console.log(result);
