@@ -108,6 +108,11 @@ const cl = f1(10);
 console.log(cl());   // 11, 1
 console.log(cl());   // 12, 2
 
+let cl2 = f1(20);
+console.log(cl2());  // 21 1
+console.log(cl2());   // 22 2
+
+
 
 
 //primitive data types -- immutable
